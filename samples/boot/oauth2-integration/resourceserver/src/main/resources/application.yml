@@ -14,4 +14,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://auth-server:10220/av2
+          issuer-uri: https://interopio-dev.com/av2
