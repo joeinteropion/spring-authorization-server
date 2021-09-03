@@ -102,7 +102,7 @@ public class AuthorizationServerConfig {
 
 	@Bean
 	public ProviderSettings providerSettings() {
-		return ProviderSettings.builder().issuer("http://auth-server:9000").build();
+		return ProviderSettings.builder().issuer("http://app-server:10220/av2").build();
 	}
 
 	@Bean
